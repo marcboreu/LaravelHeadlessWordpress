@@ -1,0 +1,43 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+body {
+    background: gray;
+}
+
+body .info-enviroment {
+    background: red;
+    height: 25px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    animation: info-development 10s infinite;
+}
+@keyframes info-development {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
